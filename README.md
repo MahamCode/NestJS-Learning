@@ -121,3 +121,15 @@ nest generate controller episodes
 ```
 
 - here a controller is created inside episodes module.
+
+```bash
+nest generate service episodes
+```
+
+or
+
+```bash
+nest g s episodes
+```
+
+- here is a service or provider inside episodes module.
