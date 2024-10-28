@@ -115,3 +115,9 @@ nest generate module episodes
 ```
 
 - here a module is created with the name of episodes.
+
+```bash
+nest generate controller episodes
+```
+
+- here a controller is created inside episodes module.
