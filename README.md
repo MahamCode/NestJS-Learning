@@ -87,25 +87,31 @@ Check out a few resources that may come in handy when working with NestJS:
 ## Instructions
 
 ```bash
-$ npm install -g @nestjs/cli
+npm install -g @nestjs/cli
 ```
 
 - You can create any api with the CLI new command that is
 
 ```bash
-$ nest new my-podcast-app
+nest new my-podcast-app
 ```
 
 - Once it is created, you can watch mode with the start dev command that is:
 
 ```bash
-$ code -r .
+code -r .
 ```
 
-To send the request to localhost:
+- To send the request to localhost:
 
 ```bash
 npm run start:dev
 ```
 
 - You will receive a hello world response.
+
+```bash
+nest generate module episodes
+```
+
+- here a module is created with the name of episodes.
